@@ -1,0 +1,65 @@
+# Base Address of the array 
+addi x10, x0, 0x200 			
+# Length of Array 
+addi x11, x0, 40 				
+# ---- Initializing the array ----
+addi x9, x0, 23
+sw x9, 0(x10)
+addi x9, x0, 44
+sw x9, 4(x10)
+addi x9, x0, 54
+sw x9, 8(x10)
+addi x9, x0, 76
+sw x9, 12(x10)
+addi x9, x0, 43
+sw x9, 16(x10)
+addi x9, x0, 67
+sw x9, 20(x10)
+addi x9, x0, 71
+sw x9, 24(x10)
+addi x9, x0, 90
+sw x9, 28(x10)
+addi x9, x0, 67
+sw x9, 32(x10)
+addi x9, x0, 75
+sw x9, 36(x10)
+# ---- Sorting : Insertion sort ----
+# j = 1
+addi x1, x0, 4 					
+# if j < len(A) then Start the loop
+blt x1, x11, Outer_Loop 		
+Outer_Loop:
+# j + base_address
+add x3, x1, x10 				
+# key = A[j]
+lw x4, 0(x3) 					
+# i = j - 1 
+addi x5, x1, -4 				
+# i + base_address
+add x6, x5, x10 				
+# A[i]
+lw x7, 0(x6) 					
+# if i <= 0 then break
+ble x5, x0, Inner_Loop_Exit  
+# if A[i] <= key then break
+ble x7, x4, Inner_Loop_Exit 	
+Inner_Loop:
+# A[i + 1] = A[i]
+sw x7, 4(x6)					
+# i--
+addi x5, x5, -4 				
+# i + base_address
+add x6, x5, x10 				
+# A[i]
+lw  x7, 0(x6) 					
+# if i <= 0 then break
+ble x5, x0, Inner_Loop_Exit 	
+# if A[i] > key then continue
+bgt x7, x4, Inner_Loop 		
+Inner_Loop_Exit:
+# A[i + 1] = key
+sw x4, 4(x6) 					
+# j++
+addi x1, x1, 4 					
+# if j < Len(A) then continue
+blt x1, x11, Outer_Loop 
