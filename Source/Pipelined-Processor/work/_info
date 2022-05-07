@@ -1,0 +1,433 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/runner
+vAdder
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1651946031
+!i10b 1
+!s100 1HE_TH`BYKma^Jk5jimKe2
+I4B61z]Ke6n[:;S>zXNDbI3
+S1
+R0
+Z3 w1651946026
+8Adder.v
+FAdder.v
+!i122 0
+L0 1 7
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z6 !s108 1651946031.000000
+!s107 Data_Memory.v|Branch_module.v|ALU_Control.v|ALU_64_bit.v|Control_Unit.v|RegisterFile.v|Imm_data_gen.v|Instruction.v|MEMWB.v|EXMEM.v|IDEX.v|IFID.v|Instruction_Memory.v|MUX.v|Adder.v|Program_Counter.v|testbench.sv|design.sv|
+Z7 !s90 -writetoplevels|questa.tops|-timescale|1ns/1ns|design.sv|testbench.sv|
+!i113 0
+Z8 o-timescale 1ns/1ns
+Z9 tCvgOpt 0
+n@adder
+vALU_64_bit
+R1
+R2
+!i10b 1
+!s100 ke3J95NINPP@Z4AO?ZSM[3
+I3I?B6fRA>6EV2_NAoS9i21
+S1
+R0
+R3
+8ALU_64_bit.v
+FALU_64_bit.v
+!i122 0
+L0 1 33
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 Data_Memory.v|Branch_module.v|ALU_Control.v|ALU_64_bit.v|Control_Unit.v|RegisterFile.v|Imm_data_gen.v|Instruction.v|MEMWB.v|EXMEM.v|IDEX.v|IFID.v|Instruction_Memory.v|MUX.v|Adder.v|Program_Counter.v|testbench.sv|design.sv|
+R7
+!i113 0
+R8
+R9
+n@a@l@u_64_bit
+vALU_Control
+R1
+R2
+!i10b 1
+!s100 LhEZ?PI;8M:aHi8KEZ3hC1
+IMX_GTdAZ>UI=n>7PU`QBe1
+S1
+R0
+R3
+8ALU_Control.v
+FALU_Control.v
+!i122 0
+L0 1 34
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@a@l@u_@control
+vbranch_module
+R1
+R2
+!i10b 1
+!s100 nW`3N`@Tka=2_ho?VedCg1
+I09_=ho]2d@ZEFjE3GTeeK1
+S1
+R0
+R3
+8Branch_module.v
+FBranch_module.v
+!i122 0
+Z11 L0 1 56
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vControl_Unit
+R1
+R2
+!i10b 1
+!s100 QSCo5kVcHCNTj_D6f`CNe1
+I]D:G;]@B7cdQJC=WV:`>;3
+S1
+R0
+R3
+8Control_Unit.v
+FControl_Unit.v
+!i122 0
+L0 1 73
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@control_@unit
+vData_Memory
+R1
+R2
+!i10b 1
+!s100 17^Y0eE:T@z1n[V[=L@o]2
+IH@CkQ6>i?ggZ_fN3Q3NdK1
+S1
+R0
+R3
+8Data_Memory.v
+FData_Memory.v
+!i122 0
+L0 1 129
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@data_@memory
+vEXMEM
+R1
+R2
+!i10b 1
+!s100 jX0_Hb^zEo8_^E2]WMzFg1
+IfE[_jZc?3>VKV];gCH]Om3
+S1
+R0
+R3
+8EXMEM.v
+FEXMEM.v
+!i122 0
+R11
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@e@x@m@e@m
+vIFID
+R1
+R2
+!i10b 1
+!s100 3nI5@Y;j0>JQ54Y8oQRo`0
+IOz1TZ9k7ESTSA0=bONE9m0
+S1
+R0
+R3
+8IFID.v
+FIFID.v
+!i122 0
+Z12 L0 1 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@i@f@i@d
+vImm_data_gen
+R1
+R2
+!i10b 1
+!s100 2:j[^fHeX]if4`mIzPgc_1
+IgOclzciCZ[k8ckiaKh`[81
+S1
+R0
+R3
+8Imm_data_gen.v
+FImm_data_gen.v
+!i122 0
+R12
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@imm_data_gen
+vInstruction
+R1
+R2
+!i10b 1
+!s100 GB<PO?f]`bDCLUd34BdVl0
+I0=Nz=@BVK@T_Ykabl]kAb1
+S1
+R0
+R3
+8Instruction.v
+FInstruction.v
+!i122 0
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@instruction
+vInstruction_Memory
+R1
+R2
+!i10b 1
+!s100 OTJhWdNf?4Q5`ClV0Qcim3
+IXWHB^9EB>T2XVT8P8XR2m1
+S1
+R0
+R3
+8Instruction_Memory.v
+FInstruction_Memory.v
+!i122 0
+L0 1 223
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@instruction_@memory
+vMEMWB
+R1
+R2
+!i10b 1
+!s100 DJ<nBcc5n4A_g5If9^o??3
+Iic`3LRQ>]RO0Q[XgNPVKH1
+S1
+R0
+R3
+8MEMWB.v
+FMEMWB.v
+!i122 0
+L0 1 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@m@e@m@w@b
+vMUX
+R1
+R2
+!i10b 1
+!s100 5LZoQkN]e07g3jJDdRkmj3
+IDXhn8fzcKL;hfaQU@7O0j3
+S1
+R0
+R3
+8MUX.v
+FMUX.v
+!i122 0
+L0 1 9
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@m@u@x
+vProgram_Counter
+R1
+R2
+!i10b 1
+!s100 4S1NmT^;A3i2P2YYYQ>4R0
+IzB:ih[M[0<g`_cYK?5aN82
+S1
+R0
+R3
+8Program_Counter.v
+FProgram_Counter.v
+!i122 0
+L0 1 17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@program_@counter
+vRegisterFile
+R1
+R2
+!i10b 1
+!s100 <D5L_:M?V9B3_c4d5HM6m2
+I5P38KHnTlS7ed:[AKb=_@1
+S1
+R0
+R3
+8RegisterFile.v
+FRegisterFile.v
+!i122 0
+L0 1 63
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@register@file
+vRISC_V_Processor
+R1
+R2
+!i10b 1
+!s100 d5EV[C@[Gj0GQ5_A189J92
+IKIdXbOid^P>`Oaa:2069G2
+S1
+R0
+R3
+8design.sv
+Fdesign.sv
+!i122 0
+L0 18 106
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+n@r@i@s@c_@v_@processor
+vtb
+R1
+R2
+!i10b 1
+!s100 MGJRWJ`YTAUA5SDM=Y16L2
+IMA3MEn4JR8WS6nzC=h5?53
+S1
+R0
+R3
+8testbench.sv
+Ftestbench.sv
+!i122 0
+L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
