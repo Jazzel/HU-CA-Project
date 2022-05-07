@@ -21,11 +21,12 @@ module tb();
       dreset = 1'b0;
       #4000
       dreset = 1'b1;
+      $finish;
   	end
   
   initial begin
     $dumpfile("tests.vcd");
     $dumpvars();
-    #100000 $finish;
+    #10000 $finish;
   end
 endmodule

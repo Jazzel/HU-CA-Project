@@ -1,29 +1,27 @@
-// Code your design here
-module EXMEM(
-  input clk,
-  input reset,
-  input [4:0] rd_inp,		//ID-EX
-  input wire Branch_inp,			//Control_unit
-  input MemWrite_inp, 
-  input MemRead_inp, 
-  input MemtoReg_inp,
-  input RegWrite_inp,
-  input wire [63:0] PC_In,		//Program_Counter
-  input [63:0] Result_inp,	//ALU
-  input ZERO_inp,
-  input [63:0] data_inp,		//Adder
-  output reg [63:0] data_out,
-  output reg [63:0] PC_Out,
-  output reg [4:0] rd_out,
-   output reg Branch_out,
-  output reg MemWrite_out,
-  output reg MemRead_out,
-  output reg MemtoReg_out, 
-  output reg RegWrite_out,
-  output reg [63:0] Result_out,
-  output reg ZERO_out
- 
-);
+module EXMEM(clk, reset, rd_inp, Branch_inp, MemWrite_inp, MemRead_inp, MemtoReg_inp, RegWrite_inp, PC_In, Result_inp, ZERO_inp, data_inp, data_out, PC_Out, rd_out, Branch_out, MemWrite_out, MemRead_out, MemtoReg_out, RegWrite_out, Result_out, ZERO_out);
+  
+  input clk;
+  input reset;
+  input [4:0] rd_inp;
+  input wire Branch_inp;
+  input MemWrite_inp; 
+  input MemRead_inp;
+  input MemtoReg_inp;
+  input RegWrite_inp;
+  input wire [63:0] PC_In;
+  input [63:0] Result_inp;
+  input ZERO_inp;
+  input [63:0] data_inp;
+  output reg [63:0] data_out;
+  output reg [63:0] PC_Out;
+  output reg [4:0] rd_out;
+   output reg Branch_out;
+  output reg MemWrite_out;
+  output reg MemRead_out;
+  output reg MemtoReg_out; 
+  output reg RegWrite_out;
+  output reg [63:0] Result_out;
+  output reg ZERO_out;
  
   
   always @ (posedge clk or posedge reset)

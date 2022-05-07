@@ -10,13 +10,13 @@ cModel Technology
 Z0 d/home/runner
 vAdder
 Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z2 !s110 1651946031
+Z2 !s110 1651946995
 !i10b 1
 !s100 1HE_TH`BYKma^Jk5jimKe2
 I4B61z]Ke6n[:;S>zXNDbI3
 S1
 R0
-Z3 w1651946026
+Z3 w1651946990
 8Adder.v
 FAdder.v
 !i122 0
@@ -26,7 +26,7 @@ Z5 OL;L;2021.3_1;73
 r1
 !s85 0
 31
-Z6 !s108 1651946031.000000
+Z6 !s108 1651946995.000000
 !s107 Data_Memory.v|Branch_module.v|ALU_Control.v|ALU_64_bit.v|Control_Unit.v|RegisterFile.v|Imm_data_gen.v|Instruction.v|MEMWB.v|EXMEM.v|IDEX.v|IFID.v|Instruction_Memory.v|MUX.v|Adder.v|Program_Counter.v|testbench.sv|design.sv|
 Z7 !s90 -writetoplevels|questa.tops|-timescale|1ns/1ns|design.sv|testbench.sv|
 !i113 0

@@ -1,8 +1,6 @@
 m255
 K4
 z2
-!s99 nomlopt
-!s11f vlog 2021.3_1 2021.08, Aug 15 2021
 13
 !s112 1.1
 !i10d 8192
@@ -10,534 +8,474 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/runner
-T_opt
-Z1 !s110 1651946146
-VPHbDGfl;GHjgf0E?QeZbn0
-04 2 4 work tb fast 0
-=1-000ae431a4f1-6276b2a2-be7e6-c
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc=npr
-Z2 tCvgOpt 0
-n@_opt
-OL;O;2021.3_1;73
 vAdder
-Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-R1
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1651947123
 !i10b 1
 !s100 1HE_TH`BYKma^Jk5jimKe2
 I4B61z]Ke6n[:;S>zXNDbI3
 S1
 R0
-Z4 w1651946140
+Z3 w1651947117
 8Adder.v
 FAdder.v
 !i122 0
 L0 1 7
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2021.3_1;73
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3_1;73
 r1
 !s85 0
 31
-Z7 !s108 1651946146.000000
-Z8 !s107 forwarding.v|stalling.v|Mux_control.v|Data_Memory.v|Branch_module.v|ALU_Control.v|ALU_64_bit.v|Control_Unit.v|RegisterFile.v|Imm_data_gen.v|Instruction.v|MEMWB.v|EXMEM.v|IDEX.v|IFID.v|Instruction_Memory.v|MUX.v|Adder.v|Program_Counter.v|testbench.sv|design.sv|
-Z9 !s90 -writetoplevels|questa.tops|-timescale|1ns/1ns|design.sv|testbench.sv|
+Z6 !s108 1651947123.000000
+!s107 forwarding.v|stalling.v|Mux_control.v|Data_Memory.v|Branch_module.v|ALU_Control.v|ALU_64_bit.v|Control_Unit.v|RegisterFile.v|Imm_data_gen.v|Instruction.v|MEMWB.v|EXMEM.v|IDEX.v|IFID.v|Instruction_Memory.v|MUX.v|Adder.v|Program_Counter.v|testbench.sv|design.sv|
+Z7 !s90 -writetoplevels|questa.tops|-timescale|1ns/1ns|design.sv|testbench.sv|
 !i113 0
-Z10 o-timescale 1ns/1ns
-R2
+Z8 o-timescale 1ns/1ns
+Z9 tCvgOpt 0
 n@adder
 vALU_64_bit
-R3
 R1
+R2
 !i10b 1
 !s100 ke3J95NINPP@Z4AO?ZSM[3
 I3I?B6fRA>6EV2_NAoS9i21
 S1
 R0
-R4
+R3
 8ALU_64_bit.v
 FALU_64_bit.v
 !i122 0
 L0 1 33
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+Z10 !s107 forwarding.v|stalling.v|Mux_control.v|Data_Memory.v|Branch_module.v|ALU_Control.v|ALU_64_bit.v|Control_Unit.v|RegisterFile.v|Imm_data_gen.v|Instruction.v|MEMWB.v|EXMEM.v|IDEX.v|IFID.v|Instruction_Memory.v|MUX.v|Adder.v|Program_Counter.v|testbench.sv|design.sv|
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@a@l@u_64_bit
 vALU_Control
-R3
 R1
+R2
 !i10b 1
 !s100 LhEZ?PI;8M:aHi8KEZ3hC1
 IMX_GTdAZ>UI=n>7PU`QBe1
 S1
 R0
-R4
+R3
 8ALU_Control.v
 FALU_Control.v
 !i122 0
 L0 1 34
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@a@l@u_@control
 vbranch_module
-R3
 R1
+R2
 !i10b 1
 !s100 nW`3N`@Tka=2_ho?VedCg1
 I09_=ho]2d@ZEFjE3GTeeK1
 S1
 R0
-R4
+R3
 8Branch_module.v
 FBranch_module.v
 !i122 0
 L0 1 56
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 vControl_Unit
-R3
 R1
+R2
 !i10b 1
 !s100 QSCo5kVcHCNTj_D6f`CNe1
 I]D:G;]@B7cdQJC=WV:`>;3
 S1
 R0
-R4
+R3
 8Control_Unit.v
 FControl_Unit.v
 !i122 0
 L0 1 73
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@control_@unit
 vData_Memory
-R3
 R1
+R2
 !i10b 1
 !s100 17^Y0eE:T@z1n[V[=L@o]2
 IH@CkQ6>i?ggZ_fN3Q3NdK1
 S1
 R0
-R4
+R3
 8Data_Memory.v
 FData_Memory.v
 !i122 0
 L0 1 129
-R5
-R6
-r1
-!s85 0
-31
-R7
-R8
-R9
-!i113 0
-R10
-R2
-n@data_@memory
-vEXMEM
-R3
-R1
-!i10b 1
-!s100 ZA1MVa@bofzF9dlWo;`zS1
-Ic^QH3l:<WMEV;cTE]9cEg2
-S1
-R0
 R4
-8EXMEM.v
-FEXMEM.v
-!i122 0
-L0 2 57
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
-n@e@x@m@e@m
+n@data_@memory
 vforwarding
-R3
 R1
+R2
 !i10b 1
 !s100 N;@;Kg@D0mW<G3nUTIAff2
 I]`SV1?9JMQ:5NSR2DC8Rz3
 S1
 R0
-R4
+R3
 8forwarding.v
 Fforwarding.v
 !i122 0
 L0 1 21
-R5
-R6
-r1
-!s85 0
-31
-R7
-R8
-R9
-!i113 0
-R10
-R2
-vIDEX
-R3
-R1
-!i10b 1
-!s100 f^UXV>T:eVY@cJVb24ZBI0
-IFHOBbm1Z<2eO:E[cRo_KU0
-S1
-R0
 R4
-8IDEX.v
-FIDEX.v
-!i122 0
-L0 1 77
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
-n@i@d@e@x
 vIFID
-R3
 R1
+R2
 !i10b 1
-!s100 bM]SGg4>54VU2A@>9mfQJ2
-Ih9QH8S?W:P:a?VlgEIX@J3
+!s100 3nI5@Y;j0>JQ54Y8oQRo`0
+IOz1TZ9k7ESTSA0=bONE9m0
 S1
 R0
-R4
+R3
 8IFID.v
 FIFID.v
 !i122 0
-L0 1 29
+Z11 L0 1 23
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@i@f@i@d
 vImm_data_gen
-R3
 R1
+R2
 !i10b 1
 !s100 2:j[^fHeX]if4`mIzPgc_1
 IgOclzciCZ[k8ckiaKh`[81
 S1
 R0
-R4
+R3
 8Imm_data_gen.v
 FImm_data_gen.v
 !i122 0
-L0 1 23
+R11
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@imm_data_gen
 vInstruction
-R3
 R1
+R2
 !i10b 1
 !s100 GB<PO?f]`bDCLUd34BdVl0
 I0=Nz=@BVK@T_Ykabl]kAb1
 S1
 R0
-R4
+R3
 8Instruction.v
 FInstruction.v
 !i122 0
 L0 1 19
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@instruction
 vInstruction_Memory
-R3
 R1
+R2
 !i10b 1
 !s100 Wmf_OVRGgmJN_ON>LB:3`0
 Ii8kh^R91@2hF1UKjg88;P2
 S1
 R0
-R4
+R3
 8Instruction_Memory.v
 FInstruction_Memory.v
 !i122 0
 L0 1 212
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@instruction_@memory
 vMEMWB
-R3
 R1
+R2
 !i10b 1
 !s100 Vbk=dOUGlPh3b3]23=IKA1
 IR]1D7h1dUHm382TQH=1VM3
 S1
 R0
-R4
+R3
 8MEMWB.v
 FMEMWB.v
 !i122 0
 L0 2 37
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@m@e@m@w@b
 vMUX
-R3
 R1
+R2
 !i10b 1
 !s100 5LZoQkN]e07g3jJDdRkmj3
 IDXhn8fzcKL;hfaQU@7O0j3
 S1
 R0
-R4
+R3
 8MUX.v
 FMUX.v
 !i122 0
 L0 1 9
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@m@u@x
 vMux_control
-R3
 R1
+R2
 !i10b 1
 !s100 X2lUKNM>I6]bWRB1_>b_h2
 IfOlYzof=FSnnkJMgbBAa]1
 S1
 R0
-R4
+R3
 8Mux_control.v
 FMux_control.v
 !i122 0
 L0 1 35
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@mux_control
 vProgram_Counter
-R3
 R1
+R2
 !i10b 1
 !s100 J3@o>ILBFREB6ji=B]OEi0
 I0Ki5dnmEIcPIC0D<zMVa_3
 S1
 R0
-R4
+R3
 8Program_Counter.v
 FProgram_Counter.v
 !i122 0
 L0 1 22
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@program_@counter
 vRegisterFile
-R3
 R1
+R2
 !i10b 1
 !s100 <D5L_:M?V9B3_c4d5HM6m2
 I5P38KHnTlS7ed:[AKb=_@1
 S1
 R0
-R4
+R3
 8RegisterFile.v
 FRegisterFile.v
 !i122 0
 L0 1 63
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@register@file
 vRISC_V_Processor
-R3
 R1
+R2
 !i10b 1
 !s100 HzX`:AL>6fzRAo28>JWh[2
 IeE2gZ?LXUM_FZ4RY`L;7K1
 S1
 R0
-R4
+R3
 8design.sv
 Fdesign.sv
 !i122 0
 L0 21 139
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 n@r@i@s@c_@v_@processor
 vstalling
-R3
 R1
+R2
 !i10b 1
 !s100 g9UYnV`Z?UTWl@]N@[c5b3
 Ii1b9<3GSELEK9bg@k3^dO2
 S1
 R0
-R4
+R3
 8stalling.v
 Fstalling.v
 !i122 0
 L0 1 26
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
 vtb
-R3
 R1
+R2
 !i10b 1
 !s100 MGJRWJ`YTAUA5SDM=Y16L2
 IMA3MEn4JR8WS6nzC=h5?53
 S1
 R0
-R4
+R3
 8testbench.sv
 Ftestbench.sv
 !i122 0
 L0 1 32
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
+R10
 R7
+!i113 0
 R8
 R9
-!i113 0
-R10
-R2
